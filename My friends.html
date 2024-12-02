@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<title>My Friends</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-image: url('blue flower.jpg');
+  background-size: cover;/
+  background-position: center;
+}
+
+ {
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 10px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 3px;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.next {
+  right: 10px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 10px;
+  border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.caption-container {
+  text-align: center;
+  background-color: #333;
+  padding: 10px;
+  color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.column {
+  flex: 0 1 calc(25% - 10px);
+  margin: 5px;
+}
+
+.column img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.column img:hover {
+  transform: scale(1.1);
+}
+
+.active {
+  opacity: 1;
+}
+</style>
+
+<body>
+
+<h2>My Friends</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 14</div>
+    <img src="edrina.jpg" alt="My friend, Nabilla Edrina, commonly known as Nana, people often mistaken we are twin,
+ but we are not related. Last semester, she was my roommate and during that time we grew closer by sharing stories and this semester
+she is my housemate in Jementah">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 14</div>
+    <img src="thirah.jpg" alt="Nur Athirah, commonly known as Thirah, is someone I only became close to this semester. 
+Previously, we were just classmates. Thirah is a supportive friend who is always there for others especially for me.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 14</div>
+    <img src="nila.jpg" alt="Nila Humaira, also known as Nila, has been my friend since Semester 2. We grew close due to working together on assignments, 
+and she is also one of my housemates.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 14</div>
+    <img src="friends.jpg" alt="These are Anis, Fatin, and Qaisara they are my classmates, who are my reference for every assignment. 
+In this picture, we are participating in the Color Run event organized by KKB.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 14</div>
+    <img src="housemate.jpg" alt=" ˗ˋˏ ♡ ˎˊ˗ My housemate ˗ˋˏ ♡ ˎˊ˗">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 14</div>
+    <img src="housemate2.jpg" alt="The person behind is Danish Haikal also known as Uzumaki, but people call him Uzu. He is an expert when it comes to 
+systems. To complete this individual task, I referred to him quite often. In this picture, my housemates and I invited him to go out for a meal together.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">7 / 14</div>
+    <img src="housemate3.jpg" alt="˗ˋˏ ♡ ˎˊ˗ My housemate ˗ˋˏ ♡ ˎˊ˗">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 14</div>
+    <img src="trio1.jpg" alt="Nana, Me, Thirah">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 14</div>
+    <img src="trio2.jpg" alt="Thirah, Nana, Me">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">10 / 14</div>
+    <img src="mpp1.jpg" alt="These are my friends from my internship at Politeknik Merlimau, and they are MPP (Majlis Perwakilan Pelajar) students. 
+At this moment, we are on a 4-day 3-night trip to the Utara and this photo was taken at Perlis.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 14</div>
+    <img src="mpp2.jpg" alt="This photo was taken during breakfast at Arau Kopi, a shop located in Arau, Perlis.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">12 / 14</div>
+    <img src="mpp3.jpg" alt="This photo was taken in front of the Alor Setar Tower, located in Kedah.">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">13 / 14</div>
+    <img src="mpp4.jpg" alt="This photo was taken at Bukit Bendera, Penang">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">14 / 14</div>
+    <img src="amir.jpg" alt="This is Amir Lokman, one of the MPP students from Politeknik Merlimau, and he is my boyfriend  ⸝⸝>  ̫ <⸝⸝
+ This photo was taken at Kampung Agong, Penang.">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img src="edrina.jpg" onclick="currentSlide(1)" alt="Nabilla Edrina.">
+    </div>
+    <div class="column">
+      <img src="thirah.jpg" onclick="currentSlide(2)" alt="Nur Athirah">
+    </div>
+    <div class="column">
+      <img src="nila.jpg" onclick="currentSlide(3)" alt="Nila Humaira">
+    </div>
+    <div class="column">
+      <img src="friends.jpg" onclick="currentSlide(4)" alt="Anis, Fatin, Qaisara">
+    </div>
+    <div class="column">
+      <img src="housemate.jpg" onclick="currentSlide(5)" alt="Budak Dedap">
+    </div>
+    <div class="column">
+      <img src="housemate2.jpg" onclick="currentSlide(6)" alt="Budak Dedap">
+    </div>
+    <div class="column">
+      <img src="housemate3.jpg" onclick="currentSlide(7)" alt="Budak Dedap">
+    </div>
+    <div class="column">
+      <img src="trio1.jpg" onclick="currentSlide(8)" alt="Trio">
+    </div>
+    <div class="column">
+      <img src="trio2.jpg" onclick="currentSlide(9)" alt="Trio">
+    </div>
+    <div class="column">
+      <img src="mpp1.jpg" onclick="currentSlide(10)" alt="MPP">
+    </div>
+    <div class="column">
+      <img src="mpp2.jpg" onclick="currentSlide(11)" alt="MPP">
+    </div>
+    <div class="column">
+      <img src="mpp3.jpg" onclick="currentSlide(12)" alt="MPP">
+    </div>
+    <div class="column">
+      <img src="mpp4.jpg" onclick="currentSlide(13)" alt="MPP">
+    </div>
+    <div class="column">
+      <img src="amir.jpg" onclick="currentSlide(14)" alt="Amir">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("column img");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  captionText.innerHTML = slides[slideIndex-1].querySelector("img").alt;
+}
+</script>
+
+</body>
+</html>

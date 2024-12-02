@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        body {
+            background-color: floralwhite;
+            margin: 0;
+        }
+
+        .marquee-container {
+            background-color: floralwhite;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .marquee-text {
+            font-family: Courier, monospace;
+            color: black;
+            font-size: 24px;
+            display: inline-block;
+            white-space: nowrap;
+        }
+
+        header {
+            background-image: url('pac members.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 380px;
+            text-align: center;
+            color: darkgrey;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        p {
+            color: black;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .mySlides {
+            display: none;
+            text-align: center;
+        }
+
+        .w3-content {
+            max-width: 800px;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .w3-content img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: contain;
+        }
+
+        .w3-display-container {
+            position: relative;
+        }
+
+        .w3-display-bottomcenter {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .w3-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .w3-display-left {
+            left: 0;
+        }
+
+        .w3-display-right {
+            right: 0;
+        }
+
+    </style>
+    <title>Theatre Club</title>
+</head>
+
+<body>
+    <div class="marquee-container">
+        <marquee class="marquee-text">
+            .° ༘🎧⋆🖇₊˚ෆ Performing Arts Club (PAC) ˙✧˖°📷 ༘ ⋆｡˚
+        </marquee>
+    </div>
+
+    <header></header>
+
+    <center>
+        <audio controls>
+            <source src="headliner.mp3" type="audio/mpeg">
+        </audio>
+    </center>
+
+    <p class="groove" style="font-family: Garamond, serif; font-size: 20px; border-style: groove; color: darkolivegreen">
+        The Performing Arts Club, commonly known as PAC, is a cultural organization established to provide students
+        with an avenue to develop and refine their talents. The club consists of various departments, including Dance Arts,
+        Vocal Arts, Music Arts, Multimedia, Hosting, Theatre and Drama, and Backstage Management. Since my second semester, 
+        I successfully passed the audition to join the Performance Arts Club (PAC). I became an active member of
+        the Drama and Theatre Department, where I participated in two theatre productions and contributed to the 
+        management of various programs. In my third semester, I was appointed as an Exco for the Drama and Theatre Department.
+    </p>
+
+    <div class="w3-container">
+        <h2 style="text-align: center;">PAC Moments</h2>
+    </div>
+
+    <div class="w3-content w3-display-container">
+        <div class="w3-display-container mySlides">
+            <img src="dancer1.jpg" alt="Traditional dancer">
+            <div class="w3-display-bottomcenter">
+                I performed as a traditional dancer for the first time at a VIP hotel in Segamat.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="dancer2.jpg" alt="Memorable dance performance">
+            <div class="w3-display-bottomcenter">
+                Performing as a traditional dancer was a memorable experience.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="agm.jpg" alt="AGM Back to the 90s">
+            <div class="w3-display-bottomcenter">
+                Annual General Meeting themed (AGM) Back to the 90s.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="culture night.jpg" alt="PAC Culture Night">
+            <div class="w3-display-bottomcenter">
+                PAC Culture Night, Halfmoon PTDI, UiTM Segamat
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="bengkel teater.jpg" alt="Theatre workshop">
+            <div class="w3-display-bottomcenter">
+                Theatre bengkel with kordrama UiTM Shah Alam.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="training1.jpg" alt="Task distribution">
+            <div class="w3-display-bottomcenter">
+                Task distribution session for the upcoming theatre.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="training3.jpg" alt="Training session">
+            <div class="w3-display-bottomcenter">
+                Training for upcoming theatre.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="1st teater.jpg" alt="First theatre performance">
+            <div class="w3-display-bottomcenter">
+                The first theatre titled "Possible, Mungkin??", in which I portrayed the character Raisa.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="exco mt.jpg" alt="Executive Committee">
+            <div class="w3-display-bottomcenter">
+                The lineup of the Executive Committee Members and Exco for each department.
+            </div>
+        </div>
+
+        <div class="w3-display-container mySlides">
+            <img src="2nd teater.jpg" alt="Second theatre performance">
+            <div class="w3-display-bottomcenter">
+                My second theatre, in which I portrayed the character Naddy.
+            </div>
+        </div>
+
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">❮</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(1)">❯</button>
+    </div>
+
+    <script>
+        let slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            const slides = document.getElementsByClassName("mySlides");
+            if (n > slides.length) { slideIndex = 1; }
+            if (n < 1) { slideIndex = slides.length; }
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <center>
+        <p class="groove" style="font-family: Garamond, serif; font-size: 20px; border-style: groove; color:darkslateblue"> 
+            Through this club, I have gained invaluable experiences, including managing events involving hundreds of students and improving my communication skills, 
+            which allowed me to build new connections along the way. I am truly grateful and happy to have been a part of such a remarkable club. However, it is 
+            with regret that I could not continue my involvement for a longer period due to my increasingly packed schedule.
+        </p>
+    </center>
+
+    <footer>
+        <p>© 2024 Farzanazri. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

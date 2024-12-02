@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Siblings</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('purple.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-word;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.column {
+  flex: 1 1 calc(33.33% - 16px); 
+  max-width: calc(33.33% - 16px);
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.content img {
+  width: 100%; 
+  border-radius: 8px;
+}
+
+.img-sister {
+  height: 220px; 
+  object-fit: cover;
+}
+
+.img-brother1 {
+  height: 240px;
+  object-fit: contain;
+}
+
+.img-brother2 {
+  height: 250px; 
+  object-fit: fill;
+}
+
+.img-me {
+  height: 330px; 
+  object-fit: cover;
+}
+
+.img-youngest {
+  height: 320px; 
+  object-fit: cover;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 1 1 calc(50% - 16px);
+    max-width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+  <h1>⋆｡‧˚ʚɞ˚‧｡⋆My Siblings⋆｡‧˚ʚɞ˚‧｡⋆</h1>
+  <hr>
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="anis.jpg" alt="older sister" class="img-sister">
+        <h3>My Sister</h3>
+        <p>This is my elder sister, Nur Farhani, but my family calls her Anis. She is 30 years old and works as a KEMAS kindergarten teacher. 
+She has a son named Muhammad Fayyadh Rizqi.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <img src="bangah.jpg" alt="older brother" class="img-brother1">
+        <h3>1st Brother</h3>
+        <p>This is my eldest brother, Muhammad Fariz and i calls him "bangah" who is 28 years old. In February next year, my brother will be
+ getting married.</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <img src="ami.jpg" alt="2nd brother" class="img-brother2">
+        <h3>2nd Brother</h3>
+        <p>This is my second brother, Muhammad Fahmi, though people often call him Ami or Pami. He currently lives and works in Kuala Lumpur.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="content">
+        <img src="zana.jpg" alt="me" class="img-me">
+        <h3>Me</h3>
+        <p>This is me!! hihi ૮⸝⸝> ̫ <⸝⸝ ა</p>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="content">
+        <img src="mizan.jpg" alt="youngest brother" class="img-youngest">
+        <h3>Youngest Brother</h3>
+        <p>This is my younger brother, Muhammad Mizan, whom I call Adik. He is 17 years old and will be taking the Sijil 
+Pelajaran Malaysia (SPM) examination this year.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

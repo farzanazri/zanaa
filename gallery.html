@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head>
+  <title>My Gallery</title>
+  <style>
+    body {
+      background-image: url('flower box.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      background-color: moccasin;
+      color: purple;
+      padding: 20px;
+      border-radius: 15px;
+      text-align: center;
+      font-size: 36px;
+    }
+
+    h2 {
+      background-color: lavender;
+      color: lightcoral;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      margin: 50px auto;
+      width: 50%;
+      font-size: 22px;
+    }
+
+   
+    .overlay-container {
+      position: relative;
+      display: inline-block;
+      width: 300px; 
+      height: 200px; 
+      border-radius: 15px;
+      margin: 10px;
+      background-size: cover; 
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .overlay-container .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .overlay-container a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .overlay-container a:hover {
+      color: lightcoral;
+      text-decoration: underline;
+    }
+
+    .overlay-boxes {
+      display: flex;
+      justify-content: center; 
+    }
+  </style>
+</head>
+<body>
+
+  <h1>♡⊹ ࣪ ˖ My Gallery ♡⊹ ࣪ ˖</h1>
+
+  <h2>
+   There are 2 option you can choose:
+  </h2>
+
+  <div class="overlay-boxes">
+    <div class="overlay-container" style="background-image: url('family1.jpg');">
+      <a href="file:///C:/Users/AVITA/OneDrive/Documents/FINAL%20RESUME/my%20family.html" class="overlay-text">
+        My Family
+      </a>
+    </div>
+
+
+    <div class="overlay-container" style="background-image: url('housemate3.jpg');">
+      <a href="file:///C:/Users/AVITA/OneDrive/Documents/FINAL%20RESUME/My%20friends.html" class="overlay-text"> 
+        My Friends
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>
